@@ -21,8 +21,8 @@ class Accesorio:
 
     def __del__(self):
         """
-        Destructor: Se ejecuta automáticamente cuando el objeto es destruido.
-        Simula la eliminación del accesorio del inventario.
+        Destructor: Se ejecuta automaticamente cuando el objeto es destruido.
+        Simula la eliminacion del accesorio del inventario.
         """
         print(f"[ELIMINADO] Accesorio '{self.nombre}' eliminado del inventario.")
 
@@ -34,7 +34,7 @@ class TiendaMascotas:
 
     def __init__(self):
         """
-        Constructor: Inicializa una lista vacía de accesorios.
+        Constructor: Inicializa una lista vacia de accesorios.
         """
         self.inventario = []
         print("[INICIO] Tienda virtual de mascotas iniciada.")
@@ -56,10 +56,12 @@ class TiendaMascotas:
 
     def cerrar_tienda(self):
         """
-        Vacía el inventario y activa los destructores.
+        Vacía el inventario y destruye los objetos explícitamente.
         """
         print("\n[CERRANDO] Cerrando tienda. Eliminando accesorios del inventario...")
-        self.inventario.clear()  # Al borrar las referencias, los destructores se activan
+        while self.inventario:
+            accesorio = self.inventario.pop()
+            del accesorio
 
 
 # Programa principal
@@ -68,9 +70,10 @@ if __name__ == "__main__":
 
     tienda.agregar_accesorio("Cama acolchada", "Cama", 30.99)
     tienda.agregar_accesorio("Arena para gato", "Arena", 10.50)
-    tienda.agregar_accesorio("Alimento humedo ", "Alimento", 9.75)
+    tienda.agregar_accesorio("Alimento humedo", "Alimento", 9.75)
 
     tienda.mostrar_inventario()
 
-    # Al finalizar el programa, o al llamar este metodo, se eliminan los objetos
+    # Eliminar todos los accesorios del inventario
     tienda.cerrar_tienda()
+
