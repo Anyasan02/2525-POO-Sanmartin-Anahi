@@ -1,0 +1,68 @@
+{
+    "001": {
+        "id": "001",
+        "nombre": "Lapiz",
+        "cantidad": 3,
+        "precio": 2.75
+    },
+    "002": {
+        "id": "002",
+        "nombre": "Cuaderno",
+        "cantidad": 2,
+        "precio": 2.25
+    },
+    "003": {
+        "id": "003",
+        "nombre": "Borrador",
+        "cantidad": 8,
+        "precio": 0.75
+    },
+    "004": {
+        "id": "004",
+        "nombre": "Regla",
+        "cantidad": 12,
+        "precio": 1.0
+    },
+    "005": {
+        "id": "005",
+        "nombre": "Marcador",
+        "cantidad": 6,
+        "precio": 2.8
+    },
+    "006": {
+        "id": "006",
+        "nombre": "Compas",
+        "cantidad": 4,
+        "precio": 3.5
+    },
+    "007": {
+        "id": "007",
+        "nombre": "Cartuchera",
+        "cantidad": 3,
+        "precio": 2.0
+    },
+    "008": {
+        "id": "008",
+        "nombre": "Corrector",
+        "cantidad": 7,
+        "precio": 1.2
+    },
+    "009": {
+        "id": "009",
+        "nombre": "Resaltador",
+        "cantidad": 9,
+        "precio": 1.8
+    },
+    "010": {
+        "id": "010",
+        "nombre": "Cartulina",
+        "cantidad": 15,
+        "precio": 0.9
+    },
+    "011": {
+        "id": "011",
+        "nombre": "Sacapuntas",
+        "cantidad": 3,
+        "precio": 1.0
+    }
+}
