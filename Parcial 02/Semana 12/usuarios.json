@@ -1,0 +1,26 @@
+{
+    "U001": {
+        "nombre": "Mateo López",
+        "user_id": "U001",
+        "libros_prestados": [
+            "1111"
+        ]
+    },
+    "U002": {
+        "nombre": "Leonardo Pérez",
+        "user_id": "U002",
+        "libros_prestados": []
+    },
+    "U003": {
+        "nombre": "Marína Torres",
+        "user_id": "U003",
+        "libros_prestados": [
+            "2222"
+        ]
+    },
+    "U004": {
+        "nombre": "Coraline Luna",
+        "user_id": "U004",
+        "libros_prestados": []
+    }
+}

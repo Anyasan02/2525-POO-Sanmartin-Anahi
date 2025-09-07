@@ -1,0 +1,26 @@
+{
+    "1111": {
+        "titulo": "El principito",
+        "autor": "Antoine de Saint-Exupery",
+        "categoria": "Novela",
+        "isbn": "1111"
+    },
+    "2222": {
+        "titulo": "Don Quijote de la Mancha",
+        "autor": "Miguel de Cervantes",
+        "categoria": "Clásico",
+        "isbn": "2222"
+    },
+    "3333": {
+        "titulo": "Clean Code",
+        "autor": "Robert C. Martin",
+        "categoria": "Programación",
+        "isbn": "3333"
+    },
+    "4444": {
+        "titulo": "Diario de Greg",
+        "autor": "Jeff Kinney",
+        "categoria": "Comedia",
+        "isbn": "4444"
+    }
+}

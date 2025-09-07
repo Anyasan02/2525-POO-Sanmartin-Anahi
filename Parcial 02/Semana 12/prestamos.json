@@ -1,0 +1,20 @@
+{
+    "1111": {
+        "usuario": "U001",
+        "fecha_prestamo": "2025-09-01",
+        "fecha_devolucion": "2025-09-15",
+        "estado": "prestado"
+    },
+    "2222": {
+        "usuario": "U003",
+        "fecha_prestamo": "2025-08-28",
+        "fecha_devolucion": "2025-09-10",
+        "estado": "atrasado"
+    },
+    "4444": {
+        "usuario": "U003",
+        "fecha_prestamo": "2025-09-07",
+        "fecha_devolucion": "2025-09-21",
+        "estado": "devuelto"
+    }
+}
