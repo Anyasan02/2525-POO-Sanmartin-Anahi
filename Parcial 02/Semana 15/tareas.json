@@ -1,0 +1,20 @@
+[
+    {
+        "tarea": "Hacer el practico de Estadistica",
+        "fecha": "2025-10-01",
+        "hora": "7:00",
+        "estado": "Completada"
+    },
+    {
+        "tarea": "Salir con mis amigos",
+        "fecha": "2025-09-30",
+        "hora": "8:00",
+        "estado": "Pendiente"
+    },
+    {
+        "tarea": "Ir al parque",
+        "fecha": "2025-10-04",
+        "hora": "9:00",
+        "estado": "Pendiente"
+    }
+]
